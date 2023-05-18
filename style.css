@@ -1,0 +1,153 @@
+img {
+    height: auto;
+    width: 300px;
+    border-radius: 25px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    border: none;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8; 
+    display: flex;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header, .footer, .sub-header {
+    background-color: #1F2937;
+}
+
+.right-links, .sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sub-header-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    display: flex;  
+}
+
+button {
+    background: #3882F6;
+    font-family: Roboto, sans-serif;
+    border-radius: 20px;
+    border-color: #E5E7EB;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px;
+    padding-left: 200px;
+    padding-right: 200px;  
+}
+
+.sub-header-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.container-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 35px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.container {
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    height: 100px;
+}
+
+.text {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action-text {
+    line-height: 2;
+}
+
+ul {
+    display: flex;
+    gap: 35px;
+}
+
+.sub-text {
+    padding-bottom: 10px;
+}
